@@ -1,0 +1,21 @@
+{
+    "name": "Övning manifes",
+    "short_name": "Manif",
+    "description": "A simple PWA app that will be installable",
+    "display": "standalone",
+    "start_url": "/", 
+    "icons": [
+    {
+        "src": "images/pwa-icon-512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      },
+      {
+        "src": "images/pwa-icon-192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+        }
+    ],
+    "background_color": "#6F3E33",
+    "theme_color": "#B77161"
+}

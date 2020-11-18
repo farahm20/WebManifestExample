@@ -1,0 +1,30 @@
+body {
+    background-color: antiquewhite;
+    box-sizing: border-box;
+}
+
+.List {
+    list-style: none;
+}
+
+li {
+    margin: .5rem;
+    padding: .25rem;
+    box-shadow: 0 0 5px 1px;
+    transition: transform 0.5secs, background color 1sec;
+}
+
+li:hover{
+    cursor: pointer;
+    transition: translateY(4px);
+    background-color: lightpink;
+}
+
+button {
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: lightcoral;
+
+}
